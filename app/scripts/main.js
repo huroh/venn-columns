@@ -15,7 +15,7 @@
       console.log(data)
     // labels array should match set = 0, 1, 2 respectively
     vennColumns = BlinkersVennColumnsChart()
-        .setLabels(["ingredients you have", "ingredients in common", "ingredients you need"])
+        .setLabels(["extra ingredients you have", "ingredients in common", "ingredients you need"])
         .data(data);
 
     d3.select("#chart")
